@@ -92,4 +92,10 @@ body {
 .panelContent {
   font-size: 24px;
   height: 100px;
+  background: #d1d1d1;
+  /*opacity: 0.5;*/
+}
+
+.panelContent p {
+  color: #000000;
 }
