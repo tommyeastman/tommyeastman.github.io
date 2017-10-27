@@ -59,7 +59,6 @@ body {
 }
 
 .panel > *:first-child {
-  text-transform: uppercase;
   transform: translateY(50%);
 }
 .panel.open-active > *:first-child {
@@ -73,9 +72,6 @@ body {
   transform: translateY(-35%);
 }
 
-.panel p {
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-}
 .panel p:nth-child(1) {
   font-size: 3em;
 }
@@ -86,5 +82,13 @@ body {
 */
 .panel.open {
   flex: 5;
-  font-size: 20px;
+}
+
+.panelHeader {
+  /*text-transform: uppercase;*/
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+}
+
+.panelContent {
+  font-size: 24px;
 }
