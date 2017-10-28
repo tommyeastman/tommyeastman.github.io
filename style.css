@@ -32,6 +32,10 @@ div {
   align-items: center;
 }
 
+footer {
+  background-color: #949494;
+}
+
 .panels {
   min-height: 100vh;
   overflow: hidden;
@@ -89,9 +93,11 @@ div {
   display: flex;
   overflow: hidden;
   margin-top: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
-  font-size: 1.5rem;
+  margin-bottom: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .image {
@@ -148,4 +154,14 @@ div {
 
 .socialLinks {
   font-family: FontAwesome;
+}
+
+.icons {
+  list-style-type: none;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
 }
