@@ -127,12 +127,15 @@ div {
 
 #dev {
   display: none;
+  padding: 5px;
 }
 
 #data {
   display: none;
+  padding: 5px;
 }
 
 #ent {
   display: none;
+  padding: 5px;
 }
