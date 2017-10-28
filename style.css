@@ -1,7 +1,7 @@
 html {
   font-family: "Anonymous Pro", monospace;
   text-align: center;
-  background-color: #414141;
+  background-color: #eeeeee;
 }
 
 body {
@@ -80,11 +80,12 @@ div {
 }
 
 .panelContent {
-  font-size: 24px;
   display: flex;
   overflow: hidden;
-  background-color: #eeeeee;
-  /*transform: translateX(100%);*/
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 1.5rem;
 }
 
 .image {
