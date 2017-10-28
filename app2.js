@@ -1,9 +1,15 @@
 $(document).ready(function() {
   $(".name").fadeIn(1000);
 
-  $("#dev").fadeIn(2000);
+  $("#dev")
+    .delay(1000)
+    .fadeIn(1500);
 
-  $("#data").fadeIn(4000);
+  $("#data")
+    .delay(2500)
+    .fadeIn(1500);
 
-  $("#ent").fadeIn(6000);
+  $("#ent")
+    .delay(4000)
+    .fadeIn(1500);
 });
