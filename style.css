@@ -26,10 +26,6 @@ div {
   align-items: center;
 }
 
-p {
-  display: none;
-}
-
 .panels {
   min-height: 100vh;
   overflow: hidden;
@@ -126,4 +122,17 @@ p {
 
 .name {
   font-size: 3rem;
+  display: none;
+}
+
+#dev {
+  display: none;
+}
+
+#data {
+  display: none;
+}
+
+#ent {
+  display: none;
 }
