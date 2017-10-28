@@ -13,8 +13,15 @@ body {
   box-sizing: inherit;
 }
 
+header {
+  position: fixed;
+  z-index: 10001;
+  background-color: #414141;
+  width: 100%;
+}
+
 .panels {
-  /*min-height: 100vh;*/
+  min-height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -79,21 +86,10 @@ body {
   padding: 30px;
   background-image: url("profpic3.jpg");
   background-size: cover;
-  flex: 20;
 }
 
 .spacing {
   width: 60%;
-}
-
-.header {
-  display: flex;
-  flex: 1;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
 }
 
 .highest-level {
