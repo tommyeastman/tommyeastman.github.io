@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(".name").fadeIn(1000);
+  console.log("hey");
 
   $("#dev").fadeIn(2000);
 
