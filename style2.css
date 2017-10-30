@@ -33,3 +33,12 @@ footer a {
   padding: 15px;
   font-size: 2rem;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+.linkHolder {
+  padding: 5px;
+  align-items: center;
+}
