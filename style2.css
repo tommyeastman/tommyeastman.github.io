@@ -38,7 +38,16 @@ a:hover {
   text-decoration: none;
 }
 
-.linkHolder {
-  padding: 5px;
-  align-items: center;
+.bio {
+  font-size: 1.5rem;
+}
+
+.icon-skills {
+  background-image: url("coding.png");
+  background-position: center center;
+}
+
+.skills {
+  max-width: 100%;
+  height: auto;
 }
