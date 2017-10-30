@@ -52,6 +52,14 @@ a:hover {
   height: auto;
 }
 
-.name {
+.fade1 {
+  display: none;
+}
+
+.fade2 {
+  display: none;
+}
+
+.fade3 {
   display: none;
 }

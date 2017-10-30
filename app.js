@@ -1,14 +1,15 @@
 $(document).ready(function() {
-  $(".name").fadeIn(1000);
-  console.log("hey");
+  $(".fade1").fadeIn(1000);
 
-  $("#dev").fadeIn(2000);
+  $(".fade2").fadeIn(2000);
 
-  $("#data")
-    .delay(1500)
-    .fadeIn(1500);
+  $(".fade3").fadeIn(3000);
 
-  $("#ent")
-    .delay(3000)
-    .fadeIn(1500);
+  // $(".fade2")
+  //   .delay(1500)
+  //   .fadeIn(1500);
+
+  // $("#create")
+  //   .delay(3000)
+  //   .fadeIn(1500);
 });
